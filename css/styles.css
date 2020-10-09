@@ -10,4 +10,20 @@
 .product{
   display: inline-block;
   margin-top: 40px;
+  position: relative;
+}
+
+.badge{
+  padding: 2px;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.bg-green{
+  background: green;
+}
+
+.bg-red{
+  background: red;
 }
