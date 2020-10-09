@@ -33,14 +33,22 @@
   cursor: pointer;
 }
 
-.fas{
+/* Icona */
+
+i{
   color: red;
   position: absolute;
   bottom:10px;
   left: 50%;
-  visibility: hidden;
+
 }
 
-.product:hover .fas{
-  visibility: visible;
+.hearts{
+  display: none;
 }
+
+.product:hover .hearts{
+  display: block;
+}
+
+/* /Icona */
