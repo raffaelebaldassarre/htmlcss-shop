@@ -2,16 +2,7 @@
   box-sizing: border-box;
 }
 
-.container{
-  width: 1000px;
-  margin: auto;
-}
-
-.product{
-  display: inline-block;
-  margin-top: 40px;
-  position: relative;
-}
+/* Utility */
 
 .badge{
   padding: 2px;
@@ -26,4 +17,30 @@
 
 .bg-red{
   background: red;
+}
+
+/* /Utility */
+
+.container{
+  width: 1000px;
+  margin: auto;
+}
+
+.product{
+  display: inline-block;
+  margin-top: 40px;
+  position: relative;
+  cursor: pointer;
+}
+
+.fas{
+  color: red;
+  position: absolute;
+  bottom:10px;
+  left: 50%;
+  visibility: hidden;
+}
+
+.product:hover .fas{
+  visibility: visible;
 }
